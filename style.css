@@ -265,3 +265,22 @@ section.pic {
 
     padding-right: 10%;
 }
+
+.socialP a{
+    font-size: 50px;
+
+
+    margin: 0 8px;
+
+    padding: 10px;
+
+    padding-right: 20px;
+
+
+    
+}
+
+.socialP a:hover {
+    font-size: 55px;
+
+}
