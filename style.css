@@ -1,0 +1,254 @@
+:root {
+    --text-colourA: #ffffff;
+    --text-colourB: #ffffff;
+    
+    --background-light: #0B0635;
+    --background-colour: #0a062e;
+    --background-dark: #0a062e;
+}
+
+.light-theme {
+    --text-colourA: #000000;
+    --text-colourB: #ffffff;
+    
+    --background-light: #010142;
+    --background-colour: #ffffff;
+    --background-dark: #010142;
+}
+
+.dark-theme {
+    --text-colourA: #ffffff;
+    --text-colourB: #a4edff;
+    
+    --background-light: #140a27;
+    --background-colour: #110723;
+    --background-dark: #0e061c;
+}
+
+.toggle {
+    padding-left: 1200px;
+}
+.toggle button{
+    font-size: small;
+}
+
+body {
+    background: var(--background-light);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif; /*this is the css stylesheet you can customize different */
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: var(--background-light);
+
+    padding: 10px;
+
+    font-size: larger;
+
+}
+
+header nav {
+    background: var(--background-light);
+
+    padding: 5px;
+}
+
+section {
+
+    background: var(--background-colour);
+
+    margin: 12px;
+
+    padding: 50px;
+
+    display: flex;
+
+    flex-direction: row; 
+
+    color:  var(--text-colourA);
+}
+
+section.top {
+    background: var(--background-light);
+
+    padding: 10px;
+
+    font-size: large;
+
+    text-align: center;
+
+    color: var(--text-colourB);
+
+    
+}
+
+footer{
+    background: var(--background-dark);
+
+    padding:20px 40px;
+
+    flex-direction: row;
+
+    
+}
+
+div{
+    background: var(--background-light);
+
+    margin: auto;
+
+    width: 100px;
+    
+
+}
+
+header ul{
+
+    margin: 8;
+
+    padding: 0;
+
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: large;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header img {
+    border-radius: 100px;
+
+     box-shadow: black 10px 10px 10px;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.social {
+
+    text-align: center;
+
+    padding: 10px;
+
+    display: inline-flex;
+
+    flex-direction: row;
+
+    padding-right: 20%;
+}
+
+.social a{
+    font-size: 50px;
+
+
+    margin: 0 8px;
+
+    padding: 10px;
+
+    padding-right: 20px;
+
+
+    
+}
+
+.social a:hover {
+    font-size: 55px;
+
+}
+
+footer{
+
+    text-align: center;
+
+    
+}
+
+
+.info{
+    font-size: large;
+}
+
+.title{
+
+    background-color: var(--background-dark);
+
+    padding: 5px;
+
+    color: var(--text-colourB);
+
+    font-size: xx-large;
+
+    padding: 20px;
+
+}
+
+button{
+    border-radius: 15px;
+
+   background-color:  var(--background-dark);
+
+   color: white;
+
+   font-size: 20px;
+
+   cursor: pointer;
+
+   
+}
+
+section.top h1 {
+    text-align: center;
+
+}
+
+section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+    object-fit: fill;
+}
+
+section.pic {
+    padding-top: 10px;
+}
+
+.players li{
+
+    background-color: var(--background-dark);
+
+    padding: 50px;
+
+    color: white;
+
+    font-size: larger;
+
+    text-align: center;
+
+    border: 3px solid var(--background-colour);
+
+}
+
+.link{
+
+    color:  var(--text-colourA);
+}
