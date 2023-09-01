@@ -252,3 +252,7 @@ section.pic {
 
     color:  var(--text-colourA);
 }
+
+#players_social{
+    padding-right: 10px;
+}
