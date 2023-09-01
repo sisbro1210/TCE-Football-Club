@@ -253,6 +253,15 @@ section.pic {
     color:  var(--text-colourA);
 }
 
-#players_social{
-    padding-right: 5px;
+.socialP {
+
+    text-align: center;
+
+    padding: 10px;
+
+    display: inline-flex;
+
+    flex-direction: row;
+
+    padding-right: 10%;
 }
